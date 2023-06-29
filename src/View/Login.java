@@ -27,10 +27,17 @@ public class Login extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(953, 626));
         setSize(new java.awt.Dimension(953, 626));
         getContentPane().setLayout(null);
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 40)); // NOI18N
+        jLabel1.setText("Đăng Nhập");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(320, 80, 260, 80);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -71,5 +78,6 @@ public class Login extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
